@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    margin: 0;
+   
+}
+
+
+#left{
+   width: 320px;
+   display:flex;
+   position: absolute;
+  
+   
+}
+
+
+#main{
+   width: 320px;
+   
+   height: 300px;
+   border-radius:5px;
+ 
+   box-shadow: rgb(231, 231, 231) 0 0 5px 5px;
+}
+
+#main h2{
+   text-align: center;
+   padding-top:10px ;
+}
+#main img{
+   border-radius: 50%;
+ margin-left: 33%;
+}
+hr{
+  width: 90%;
+  border: none;
+  height: 1px;
+  background-color: #eee;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   font-size: 15px;
+   
+   padding:5px;
+}
+.text{
+ 
+display: inline-flex;
+
+}
+.text i{
+   color:lightgray;
+   margin-left:5px;
+   padding: 0px;
+   margin-top: 0px;
+  
+}
+  
+.text p{
+   font-weight: lighter;
+   margin-top: 0px;
+   margin-left: 10px;
+   padding-left:2px ;
+} 
+
+button{
+   background-color: #199de5;
+}
+
+.sections{
+   display: flex;
+   flex-direction: column;
+   width: 320px;
+   margin-top: 20px;
+   box-shadow: rgb(231, 231, 231) 0 0 5px 5px;
+}
+.cards button,input{
+   
+   height: 30px;
+   text-align: left;
+   border: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+
+}
+.cards button{
+   color: #fff;
+   width: 100%;
+    
+}
+.cards button:hover{
+   color: #000;
+   background-color: #becbd2;
+   cursor: pointer;
+}
+.cards input{
+   width:90% ;
+
+}
+.cards button i{
+   padding-right: 20px;
+}
+
+.photo img{
+   width: 120px;
+   margin: 15px;
+   
+
+}
+.interests{
+   display: flex;
+   flex-wrap: wrap;
+   width: 300px;
+   margin-top: 20px;
+   box-shadow: rgb(231, 231, 231) 0 0 5px 5px;
+   padding: 10px;
+   margin-right: 0;
+   border-radius: 5px;
+   
+}
+.interests p{
+   font-size: 15px;
+   padding:3px;
+   margin-bottom: 0;
+   margin-top: 0;
+
+}
+.interests > div{
+font-size: 12px;
+width: 50px;
+
+text-align: center;
+padding:3px;
+margin: 3px;
+height: 15px;
+
+}
+
+.hey{
+   margin-top: 20px;
+   width: 320px;
+   background-color: #dfe5e8;
+   margin-bottom: 10px;
+  
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   height: 100px;
+}
+.hey .remove{
+ float: right;
+ margin-top: 0;
+ margin-right: 0;
+ cursor: pointer;
+   padding:10px 15px;
+   background-color: #becbd2;
+}
+.hey .remove:hover{
+   background-color: rgb(221, 212, 200);
+}
+.hey p{
+   padding:5px 10px;
+  
+   
+}
+
+@media screen and (max-width:768px){
+   #left{
+       width: 100%;
+   }
+   #main{
+       width: 100%;
+   }
+
+   .sections{
+      
+       width: 100%;
+   }
+   
+   .photo img{
+       width: 90%;
+   }
+
+   .hey{
+       display: none;
+   }
+   .interests{
+       display: none;
+   }
+  
+}

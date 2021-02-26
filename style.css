@@ -36,7 +36,7 @@ br{
    clear: both;
 }
 
-
+/* added header */
 #left{
    width: 320px;
    display:flex;
